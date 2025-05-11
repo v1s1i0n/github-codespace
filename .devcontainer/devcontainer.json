@@ -1,0 +1,12 @@
+{
+  "name": "Android Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "features": {},
+  "postCreateCommand": "./setup.sh",
+  "remoteUser": "vscode"
+}
